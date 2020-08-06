@@ -1,10 +1,29 @@
 {
-    "cats": [
-
-    {"name": "leroy", "style": "real loud"},
-    {"name": "clark", "style": "bro"},
-    {"name": "mona lisa saperstein", "style": "money plz"}
-
-
-    ]
+  "cats": [
+    {
+      "id": 1,
+      "name": "leroy",
+      "style": "real loud"
+    },
+    {
+      "id": 2,
+      "name": "clark",
+      "style": "bro"
+    },
+    {
+      "id": 3,
+      "name": "mona lisa saperstein",
+      "style": "money plz"
+    },
+    {
+      "name": "asdasd",
+      "style": "asda",
+      "id": 4
+    },
+    {
+      "name": "jibby",
+      "style": "eats beans",
+      "id": 5
+    }
+  ]
 }

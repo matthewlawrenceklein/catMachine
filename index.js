@@ -1,7 +1,5 @@
 // json-server --watch db.json
 
-
-
 function main() {
     getCats()
     createFormListener()
@@ -23,8 +21,6 @@ function renderCat(cat){
 
     catList.append(pTag)
 }
-
-
 
 function createFormListener(){
     const form = document.querySelector('form')
@@ -52,31 +48,11 @@ function createFormListener(){
       .then(resp => resp.json())
       .then(cat => {
         console.log(cat)
+        renderCat(cat)
       })
   
     })  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
