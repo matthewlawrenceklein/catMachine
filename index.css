@@ -32,3 +32,13 @@ body {
 .item{
     
 }
+
+#catlist {
+	align-self: center;
+}
+
+#cat-image {
+	height: 200px;
+	width: auto;
+	border-radius: 25px ;
+}
