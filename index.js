@@ -1,4 +1,8 @@
-// main function for event listener
+// TO START THE SERVER 
+// json-server --watch db.json
+// TO START THE SERVER 
+
+
 let hellCounter = 0 
 
 function main(){
@@ -8,7 +12,6 @@ function main(){
 function newCatListener(){
 
   const form = document.querySelector('form')
-
   form.addEventListener('submit', function(event){
 
     event.preventDefault()
@@ -55,7 +58,6 @@ function newCatListener(){
 
 }
 
-
 function destroyCatListener(catId){
   const button = document.getElementById('destroy-cat')
   button.addEventListener('click', function(event){
@@ -64,6 +66,7 @@ function destroyCatListener(catId){
   const reqObj = {
     method: 'DELETE'
   }
+
   fetch(`http://localhost:3000/cats/${catId}`, reqObj)
     .then(resp => resp.json())
     .then(catData => {
@@ -74,7 +77,6 @@ function destroyCatListener(catId){
       catList.innerHTML = `<h3> You sent that cat to Hell <h3>`
       
       const banner = document.getElementById('banner')
-
 
       if (hellCounter == 1){
         banner.innerHTML = `<h3> CAT HELL MACHINE</h3>
@@ -87,18 +89,9 @@ function destroyCatListener(catId){
                           <p> You've sent ${hellCounter} cats to HELL <p>
       `
       }
-
     })
-
-
-
-
-
   })
 }
-
-
-
 
 
 main()
