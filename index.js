@@ -42,6 +42,9 @@ function newCatListener(){
     `
     const catId = cat.id 
     catList.innerHTML = catDisplay
+    const banner = document.getElementById('banner')
+    banner.innerHTML = `<h3> CAT MACHINE </h3>`  
+    
     destroyCatListener(catId)
     }
 
@@ -72,10 +75,19 @@ function destroyCatListener(catId){
       
       const banner = document.getElementById('banner')
 
-      banner.innerHTML = `<h3> CAT HELL MACHINE</h3>
+
+      if (hellCounter == 1){
+        banner.innerHTML = `<h3> CAT HELL MACHINE</h3>
+                            <img src="https://media1.popsugar-assets.com/files/thumbor/ayFpo7zdE6C22XsPoIh3RP6BAK4/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/08/16/663/n/1922243/8bb1accdaee60898_netimg2VZYy0/i/Devil-Cat-Costume.jpg" id="cat-image">
+                            <p> You've sent ${hellCounter} cat to HELL <p>
+        `
+      } else {
+        banner.innerHTML = `<h3> CAT HELL MACHINE</h3>
                           <img src="https://media1.popsugar-assets.com/files/thumbor/ayFpo7zdE6C22XsPoIh3RP6BAK4/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/08/16/663/n/1922243/8bb1accdaee60898_netimg2VZYy0/i/Devil-Cat-Costume.jpg" id="cat-image">
                           <p> You've sent ${hellCounter} cats to HELL <p>
       `
+      }
+
     })
 
 

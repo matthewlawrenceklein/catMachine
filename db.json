@@ -1,89 +1,9 @@
 {
   "cats": [
     {
-      "name": "weenus",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 8
-    },
-    {
-      "name": "jub",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 9
-    },
-    {
-      "name": "jubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 10
-    },
-    {
-      "name": "grubbo",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 11
-    },
-    {
-      "name": "jubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 12
-    },
-    {
       "name": "asdas",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 13
-    },
-    {
-      "name": "grumbo",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 14
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 15
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 16
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 17
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 18
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 19
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 20
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 21
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 22
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 23
-    },
-    {
-      "name": "gubby",
-      "image": "https://pytorch.org/tutorials/_images/cat_superres_with_ort.jpg",
-      "id": 24
+      "image": "https://www.gopetol.com/wp-content/uploads/2016/12/img-cat-wash.jpg",
+      "id": 31
     }
   ]
 }
